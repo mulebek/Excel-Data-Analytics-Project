@@ -7,40 +7,43 @@ This data jobs salary dashboard was created to help job seekers investigate saal
 An interactive Excel dashboard analyzing data science and analytics salaries across different roles, experience levels, and job types. This project provides insights into compensation trends in the data industry.  
 ## Excel Skills Used  
 The following excel skills were utilized for analysis:  
-Charts  
-Formula and Function  
-Data Validation  
+
+ - 📉 Charts
+ - 🧮 Formulas and Functions
+ - ❎ Data Validation
+  
 # Data Jobs Dataset  
 The dataset used for this project contains real-world data science job information from 2023, which provide a foundation for analyzing data using excel. It includes detailed information on:  
-Job titles  
-Salaries  
-Locations  
-Skills  
+
+  - 👨‍💼 Job titles
+  - 💰 Salaries
+  - 📍 Locations
+  - 🛠️ Skills
+  
 ## Dashboard Build  
-# Charts  
-# Data Science Job Salaries -Bar Chart  
+📉 Charts
+📊 Data Science Job Salaries - Bar Chart  
 <img width="1336" height="867" alt="Bar Chart" src="https://github.com/user-attachments/assets/348058ff-4b96-481e-b864-89c013936f16" />
 
-- Excel Features: Utilized bar chart feature and optimized layout for clarity 
+  - 🛠️ Excel Features: Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
+  - 🎨 Design Choice: Horizontal bar chart for visual comparison of median salaries.
+  - 📉 Data Organization: Sorted job titles by descending salary for improved readability.
+  - 💡 Insights Gained: This enables quick identification of salary trends, noting that Senior roles and Engineers are higher-paying than Analyst roles.
 
-- Design choice: Horizontal bar chart for visual comparison of median salaries
   
-- Data Organization: Sorted job titles by descending salary for improved readability
-  
-- Insights Gained: This Enable quick eidentification of salary trends, noting that Senior roles and Engineers are higher paying than Analyst roles.
-  
-  **Country Median Salaries-Map Chart**
+  🗺️ Country Median Salaries - Map Chart
   
   <img width="564" height="395" alt="Map Chart" src="https://github.com/user-attachments/assets/df942f50-707e-4d68-a317-474c16aafa8c" />
-  - Excel Features: Utilized Excel's map chart feature to plot median salaries globally.
-  - Design Choice: Color coded map to visually differentiate salary levels across regions.
-  - Data Representation: Plotted median salary for each country with available data.
-  - Visual Enhancement: Improved readability and immediate understanding of geographic salary trends.
-  - Insights Gained: Enable quick grasp of global salary disparities highlights high/low salary region.
 
-    ## Formulas and Function
+  - 🛠️ Excel Features: Utilized Excel's map chart feature to plot median salaries globally.
+  - 🎨 Design Choice: Color-coded map to visually differentiate salary levels across regions.
+  - 📊 Data Representation: Plotted median salary for each country with available data.
+  - 👁️ Visual Enhancement: Improved readability and immediate understanding of geographic salary trends.
+  - 💡 Insights Gained: Enables quick grasp of global salary disparities and highlights high/low salary regions.
 
-    ** Median Salary by Job Titles **
+
+🧮 Formulas and Functions
+💰 Median Salary by Job Titles
 
     =MEDIAN(
   IF(
@@ -52,10 +55,12 @@ Skills
   )
  )
 
-- Multi-Criteria Filtering: Checks job title, country, schedule type, and exclude blank salaries.
-- Array Formula: Utilizes MEDIAN() Function with nested IF() statement to analyze an array.
-- Tailored Insights: Provides specific salaries information for job titles, regions, and schedule type.
-- Formula Purpose: This formula populates the table below, returning the median salary based on job title, country, and schedule type.
+
+  - 🔍 Multi-Criteria Filtering: Checks job title, country, schedule type, and excludes blank salaries.
+  - 📊 Array Formula: Utilizes MEDIAN() function with nested IF() statement to analyze an array.
+  - 🎯 Tailored Insights: Provides specific salary information for job titles, regions, and schedule types.
+  - 🔢 Formula Purpose: This formula populates the table below, returning the median salary based on job title, country, and type specified.
+
 
   Background Table
 
@@ -69,23 +74,33 @@ Skills
 
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 
-- Unique List Generation: This Excel formula below employs the FILTER() function to exclude entries containing "and" or and omit zero values
-- Formula Purpose: This formula populates the table below, which gives us a list of unique job schedule type.
 
-   ## Data Validation
+  - 🔍 Unique List Generation: This Excel formula below employs the FILTER() function to exclude entries containing "and" or commas, and omit zero values.
+  - 🔢 Formula Purpose: This formula populates the table below, which gives us a list of unique job schedule types.
 
-  Filtered List
+🍽️ Background Table
 
-  - Enhanced Data Validation: Implementing the filtered list as a data validation rule under the job title, country, and Type option in the Data tab ensures:
-    User input is restricted to predefined, validated schedule type
-    Incorrect or inconsistent entries are prevented.
-    Overall usability of the dasgboard is enhanced.
+<img width="195" height="119" alt="Type" src="https://github.com/user-attachments/assets/da074947-2df1-4608-bac0-48da448ff8b1" />
+
+📉 Dashboard Implementation:  
+
+<img width="942" height="1212" alt="Type_2" src="https://github.com/user-attachments/assets/c41fd8c2-fe78-4ca2-a425-092069a6135f" />
+
+   ## Data Validation  
+   
+   🔍 Filtered List
+
+🔒 Enhanced Data Validation: Implementing the filtered list as a data validation rule under the Job Title, Country, and Type option in the Data tab ensures:
+      🎯 User input is restricted to predefined, validated schedule types
+      🚫 Incorrect or inconsistent entries are prevented
+      👥 Overall usability of the dashboard is enhanced
+
   
 ![Data Validation](https://github.com/user-attachments/assets/acd70963-8578-4118-ae0f-97213885c6bb)
 
 ## Conclusion  
 
-I created this dashboard to showcase insights into salary trends across various data-related job titles. This dashboard allow users to make informed decision about their career paths. Exploring the functionality to how understand and job type influence saalries.
+I created this dashboard to showcase insights into salary trends across various data-related job titles. This dashboard allow users to make informed decision about their career paths. Exploring the functionality to how understand how location and job type influence salaries.
 
 
 ## Salary Analysis  
