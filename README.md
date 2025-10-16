@@ -22,7 +22,8 @@ The dataset used for this project contains real-world data science job informati
   
 ## Dashboard Build  
 📉 Charts
-📊 Data Science Job Salaries - Bar Chart  
+📊 Data Science Job Salaries - Bar Chart 
+
 <img width="1336" height="867" alt="Bar Chart" src="https://github.com/user-attachments/assets/348058ff-4b96-481e-b864-89c013936f16" />
 
   - 🛠️ Excel Features: Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
@@ -43,9 +44,9 @@ The dataset used for this project contains real-world data science job informati
 
 
 🧮 Formulas and Functions
-💰 Median Salary by Job Titles
+💰 Median Salary by Job Titles  
 
-    =MEDIAN(
+ =MEDIAN(
   IF(
     (jobs[job_title_short]=A2)*
     (jobs[job_country]=country)*
@@ -86,14 +87,17 @@ The dataset used for this project contains real-world data science job informati
 
 <img width="942" height="1212" alt="Type_2" src="https://github.com/user-attachments/assets/c41fd8c2-fe78-4ca2-a425-092069a6135f" />
 
-   ## Data Validation  
+   ## Data Validation 
    
    🔍 Filtered List
 
-🔒 Enhanced Data Validation: Implementing the filtered list as a data validation rule under the Job Title, Country, and Type option in the Data tab ensures:
-      🎯 User input is restricted to predefined, validated schedule types
-      🚫 Incorrect or inconsistent entries are prevented
-      👥 Overall usability of the dashboard is enhanced
+- 🔒 Enhanced Data Validation: Implementing the filtered list as a data validation rule under the Job Title, Country, and Type option in the Data tab ensures:
+
+    🎯 User input is restricted to predefined, validated schedule types
+    🚫 Incorrect or inconsistent entries are prevented
+    👥 Overall usability of the dashboard is enhanced
+
+
 
   
 ![Data Validation](https://github.com/user-attachments/assets/acd70963-8578-4118-ae0f-97213885c6bb)
