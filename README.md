@@ -1,6 +1,6 @@
 # Excel Data Analytics Project  
 ## Salary Dashboard  
-This data jobs salary dashboard was created to help job seekers investigate saalries for desired jobs and ensure they are being adequately compensated.  
+This data jobs salary dashboard was created to help job seekers including me investigate salaries for desired jobs and ensure they are being adequately compensated.  
 ![Checkout my work here](https://github.com/mulebek/Excel-Data-Analytics-Project/blob/main/Project_1.xlsx)  
 <img width="1876" height="804" alt="Project 1-Dashboard" src="https://github.com/user-attachments/assets/d6118a0a-99de-4a46-92da-9e93088e7fb7" />  
 # Introduction  
@@ -63,7 +63,7 @@ The following excel skills were utilized for analysis:
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 
 
-  - 🔍 Unique List Generation: This Excel formula below employs the FILTER() function to exclude entries containing "and" or commas, and omit zero values.
+  - 🔍 Unique List Generation: This Excel formula above shows the FILTER() function to exclude entries containing "and" or commas, and omit zero values.
   - 🔢 Formula Purpose: This formula populates the table below, which gives us a list of unique job schedule types.
 
 📉 Dashboard Implementation:  
@@ -87,7 +87,7 @@ The following excel skills were utilized for analysis:
 
 ## Conclusion  
 
-I created this dashboard to showcase insights into salary trends across various data-related job titles. This dashboard allow users to make informed decision about their career paths. Exploring the functionality to how understand how location and job type influence salaries.
+I created this dashboard to showcase insights into salary trends across various data-related job titles. This dashboard allow users to make informed decision about their career paths. Exploring the functionality to how understand location and job type influence salaries.
 
 
 # Project 2 Analysis
@@ -135,7 +135,7 @@ This trend emphasizes the value of acquiring multiple relevant skills, particula
 2️⃣ What’s the salary for data jobs in different regions?  
 🧮 Skills: PivotTables & DAX  
 📈Pivot Table  
-🔢 I created a PivotTable using the Data Model I created with Power Pivot.  
+🔢 I created a PivotTable using the Data Model with Power Pivot.  
 📊 I moved the job_title_short to the rows area and salary_year_avg into the values area.  
 🧮 Then I added new measure to calculate the median salary for United States jobs.  
 
@@ -204,9 +204,7 @@ Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
 
   This chart highlights the importance of investing time in learning high-value skills like Python and SQL, which are evidently tied to higher paying roles, especially for those looking to maximize their salary in the tech industry.
 
-Conclusion
+## Conclusion
 
-As a data enthusiast and former job seeker, I embarked on this Excel-based project to uncover valuable insights about the data science job market. Using a dataset I've curated from real-world job postings, I analyzed job titles, salaries, locations, and essential skills. By leveraging Excel features like Power Query, PivotTables, DAX, and charts, I discovered key correlations between multiple skills and higher salaries, particularly in Python, SQL, and cloud technologies.
-
-I hope this project serves as a practical guide for data professionals and provides an overview of the skills needed for higher-paying roles.
+As a data enthusiast and job seeker, I went on this Excel-based project to uncover valuable insights about the data science job market. Using a dataset curated from real-world job postings, I analyzed job titles, salaries, locations, and essential skills. By leveraging Excel features like Power Query, PivotTables, DAX, and charts, I discovered key correlations between multiple skills and higher salaries, particularly in Python, SQL, and cloud technologies.
 
